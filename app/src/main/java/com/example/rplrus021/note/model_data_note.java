@@ -4,7 +4,7 @@ import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.PrimaryKey;
 
-@Entity(tableName = "model_note")
+@Entity(tableName = "note_table")
 public class model_data_note {
     @PrimaryKey(autoGenerate = true)
     private int id;

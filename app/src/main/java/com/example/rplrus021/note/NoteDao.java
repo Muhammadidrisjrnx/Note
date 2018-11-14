@@ -20,6 +20,6 @@ public interface NoteDao {
     @Delete
     void delete(model_data_note model_data_note);
 
-    @Query("SELECT * FROM model_note")
+    @Query("SELECT * FROM note_table")
     LiveData<List<model_data_note>> get_all_data();
 }
